@@ -1,0 +1,411 @@
+:root{
+    /* Font Styles */
+    --source-code-pro: "Source Code Pro", monospace;
+    --ubuntu: "Ubuntu", sans-serif;
+    --merriweather: "Merriweather", serif;
+
+    /* Color */
+    --skin-tone: #fcf7ec;
+    --little-dark-skin: #c6a691;
+    --tangy-orange: #E76F51;
+    --navy-blue: #1F316F;
+    --bluish: #5B99C2;
+    --brown: #914F1E;
+    --light-brown: #D15050;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Section Department */
+#hero-section {
+    background-color: var(--skin-tone);
+}
+
+/* Navbar Settings */
+
+#main-container {
+    width: 65%;
+    margin: auto;
+    font-family: var(--ubuntu);
+    margin-top: 20px;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 90px;
+}
+
+.menu-item a {
+    font-weight: bold;
+    color: var(--navy-blue);
+    font-size: 1.15rem;
+}
+
+
+/* Hero Secction */
+
+.hero-banner {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--navy-blue);
+}
+
+.hero-brief {
+    width: 50%;
+    font-size: 2rem;
+}
+
+.main-heading {
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+.eye-catch {
+    color: var(--light-brown);
+    opacity: 100%;
+}
+.short-brief {
+    opacity: 60%;
+}
+
+/* Features - Skills */
+#skill-section {
+    background-color: var(--skin-tone);
+}
+
+#feature-container {
+    width: 65%;
+    margin: auto;
+    font-family: var(--ubuntu);
+    padding: 50px 0; 
+    font-size: 1.2rem;
+    color: var(--brown);
+}
+
+.feature-head {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    border-bottom: 0.5px solid var(--little-dark-skin);
+}
+
+.features {
+    display: flex;
+    gap: 50px;
+}
+
+.skills h3 {
+    opacity: 75%;
+}
+
+.dott {
+    color: var(--light-brown);
+    font-size: 2rem;
+}
+
+.skills p {
+    margin-top: 20px;
+    opacity: 50%;
+    line-height: 1.6;
+}
+
+/* Experience Section */
+
+#experience-container {
+    width: 65%;
+    margin: auto;
+    font-family: var(--ubuntu);
+    padding: 50px 0 10px;
+    font-size: 1.2rem;
+    color: var(--brown);
+}
+
+.experience-head {
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    
+}
+
+.exp {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px 65% 50px;
+    margin-bottom: 30px;
+    opacity: 80%;
+}
+
+.exp-head {
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.exp-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    opacity: 65%;
+}
+
+.exp-img {
+    margin-left: 40px;
+}
+
+/* Contact Form Section */
+#contact-section{
+    background-color: var(--little-dark-skin);
+    padding: 20px;
+    opacity: 75%;
+}
+
+.contact-form {
+    max-width: 550px;
+    margin: 40px auto;
+    padding: 30px 40px 40px;
+    background-color: var(--skin-tone);
+    color: var(--brown);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: var(--ubuntu);
+  }
+  
+  .contact-form h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    opacity: 65%;
+    font-weight: bold;
+  }
+  
+  .contact-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .email-share {
+    display: block;
+    margin-bottom: 10px;
+    opacity: 65%;
+    font-weight: bold;
+    margin: 10px 0 20px;
+    font-size: .8rem;
+  }
+  
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-form p {
+    display: block;
+    margin-bottom: 10px;
+    opacity: 65%;
+    font-weight: bold;
+    margin: 10px 0 20px;
+    font-size: .8rem;
+  }
+  
+  .contact-form a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .contact-form a:hover {
+    background-color: #777;
+  }
+
+/* Footer Section */
+
+#footer-section {
+    background-color: var(--navy-blue);
+}
+
+#footer-container {
+    width: 65%;
+    margin: auto;
+    font-family: var(--ubuntu);
+    padding: 40px 0 ;
+    color: #fcf7ec;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+
+    /* Display */
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy-skd {
+    color: var(--light-brown);
+}
+
+/* Media Query */
+/* For devices with a width of 1024px or less */
+@media screen and (max-width: 1024px) {
+    #main-container {
+        width: 80%;
+    }
+
+    .nav-menu ul {
+        gap: 50px;
+    }
+
+    .hero-brief {
+        width: 60%;
+    }
+
+    .hero-banner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-brief, .hero-boy-img {
+        width: 100%;
+    }
+
+    .features {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .experience-head {
+        text-align: center;
+    }
+
+    .exp {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .exp img {
+        visibility: hidden;
+        height: 5px;
+    }
+
+    .exp-head, .exp-text, .exp-img {
+        margin: 0 auto;
+    }
+
+    .exp-head {
+        padding-right: 0;
+    }
+
+    #footer-container {
+        font-size: 0.6rem;
+        word-spacing: 0.5px;
+        letter-spacing: 2px;
+    }
+}
+
+/* For devices with a width of 768px or less */
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        visibility: hidden;
+    }
+
+    .nav-menu ul {
+        visibility: hidden;
+    }
+
+    .hero-brief {
+        font-size: 1.8rem;
+    }
+
+    .main-heading {
+        font-size: 3rem;
+    }
+
+    .features {
+        font-size: 1rem;
+    }
+
+    .exp {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .exp-head h3, .exp-head h5 {
+        font-size: 1.2rem;
+    }
+
+    .exp-text p {
+        font-size: 1rem;
+    }
+}
+
+/* For devices with a width of 480px or less */
+@media screen and (max-width: 480px) {
+    nav.nav-bar {
+        visibility: hidden;
+    }
+
+    .hero-brief {
+        font-size: 1.2rem;
+    }
+
+    .main-heading {
+        font-size: 1.5rem;
+    }
+
+    .features {
+        font-size: 0.9rem;
+    }
+
+    .exp-head h3, .exp-head h5 {
+        font-size: 1rem;
+    }
+
+    .exp-text p {
+        font-size: 0.9rem;
+    }
+
+    .exp-img {
+        height: 120px;
+    }
+
+    .aboutme-head {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
