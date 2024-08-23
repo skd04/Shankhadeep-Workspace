@@ -134,13 +134,13 @@ ul {
     width: 65%;
     margin: auto;
     font-family: var(--ubuntu);
-    padding: 50px 0 10px;
+    padding: 50px 0px;
     font-size: 1.2rem;
     color: var(--brown);
 }
 
 .experience-head {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     font-size: 2.5rem;
     
 }
